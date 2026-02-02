@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" xmlns:fpa="https://spid.gov.it/invoicing-extensions" entityID="https://www.blugo.it" ID="spid-php_ad713696bbea22c863479e2101ec974d72078a4b3366091a6c39e0ce068e5bd6"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#spid-php_ad713696bbea22c863479e2101ec974d72078a4b3366091a6c39e0ce068e5bd6"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>eOHJQoPLfWBzC5r99vyKJovlhNjCctuLhFzVwvODOVY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>wPTzBUr3SNf0Oho05SL9k/2t+LJNMUjahn+tnm5xoiK5Lg70D5pr0tmuOZydv1lz+oHIMOEu/3I3emY+rVfO7FDv7i6C/t+eTtbQnQvBrDmQ3cW3iLVHlXUReD32L8uzbfno4H86Kq/VO5dxLLvckpV+rM2dUH/ywW1g0Chv0wl31+IS2a9d64chsFr4uPk2E+6ZnVP9+UPnAhMjOcCFyvhgyd4VH+MoWlMdW76WlGNZXqasl1rROQW5YEQpM71TvQhgVNX45RsgfITrWftrcyVOdqc5DcsXSuIKhyHUxxXM3JfDECZPo6ddTu4Yzo2gYeu92HENAFSw7FovmVT6CPJn5fPfsOEPElXW/AHVIZgfd+DfEcLlXEqK+fgeUBHQ06S3xqRLg/KqdGgk8/f/PjJ3mvmNRQmXA8vhsgE7HTASG3RpQ+oSrdVtpyLa9uRcyFfzPbTA6uBRIpEh1uv8e/GBA+IOW0MSdJsRYns1Qjfb128v+LbMwZG7FkJy9jP9</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFKTCCA5GgAwIBAgIUL1sPhdsSm1fPUxS66LKKCI6zJEgwDQYJKoZIhvcNAQELBQAwgYMxFDASBgNVBAoMC01BU1RFUlMgc3JsMRAwDgYDVQQDDAdNQVNURVJTMR0wGwYDVQRTDBRodHRwczovL3d3dy5ibHVnby5pdDEaMBgGA1UEYQwRVkFUSVQtMDIwNzkwMTA2NjIxCzAJBgNVBAYTAklUMREwDwYDVQQHDAhBdmV6emFubzAeFw0yNjAyMDIyMTU0NTBaFw0yODAyMDIyMTU0NTBaMIGDMRQwEgYDVQQKDAtNQVNURVJTIHNybDEQMA4GA1UEAwwHTUFTVEVSUzEdMBsGA1UEUwwUaHR0cHM6Ly93d3cuYmx1Z28uaXQxGjAYBgNVBGEMEVZBVElULTAyMDc5MDEwNjYyMQswCQYDVQQGEwJJVDERMA8GA1UEBwwIQXZlenphbm8wggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDnc5OXQxg5cXENq88t/cEVSm+lEmNC0gfqWfK2ramLOu0aDRbYWAdLEjt+ZjnC3mTuPg+xM9QhlejLXz8xcEMMWa7Rw93PT3/cXoUtprffNXC0xLgUvjRGD8ak4//qGQgi7PRx7OjCS9Otti/vp28a8cPi/XIhV9sFS54nlli5Ra/6uGoTr9r9xbOf4G4HMIZqvGgq/NuKryr5VyDnJaaSq61u0TvXbI+uhsA/aBP+xq4WG4s4CH9J+T84IDQKNe9ShIuN9O8qfAeg+Bg9BKfYP/hpRqd8+Cd64qmeCOHKEG8kekXOA6g7RnAIoLQ2I81Kfz/pHlGoia9XA9LeWpEP9pjE52OrXibcGWEkFd2Xub9fAmLYTSsosck0btLotctfvWb88mG9Rg2xj0z1umf3FHW8m/5QaXjaBYemHHO6QgMzIdLM8uGkXPdFsSMgMACLVCeOHNAGCY+0Y9yD+6npWENhjlYowgKJ011DCfTReM1rXX8hzjrOa2xWizc+nTUCAwEAAaOBkjCBjzAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBTBgNVHSAETDBKMCAGBCtMEAYwGDAWBggrBgEFBQcCAjAKGghhZ0lEY2VydDAmBgYrTBAEAwEwHDAaBggrBgEFBQcCAjAOGgxjZXJ0X1NQX1ByaXYwHQYDVR0OBBYEFAfNET80nLSfzndRpUbE8uEVJQgwMA0GCSqGSIb3DQEBCwUAA4IBgQCul8htIEIiEoYi82Q83FQgn058PXnlSAIJ1iYJlsukkY3Yzj6EaPiFkJMHD6sGT77H08qMEH7/AgZqb0AwV69qTOc1iwr6X6FtWSR76Be8sk0iDqrCpdrdLNHnECX5HDTUCD/+5QlLGx7u8JyQdMFgHRuVLAZpF1XHlDyI4ENNvIdKJBi3DVU7N0c6P9prnjl/l4tFU3mWnoj2h8lqZCgDzO03drfYiBUJ5cIOlcHATpQ8wqB0kstHRJUOqMluB6kQMBcf156Rc2LykGWuXmqJ1KQFA2Ph9u7WifrDdfer6XfIOeyesHJGsIkv0vQgme1ur8CWw8VYbqYV99/n5qTgpRALfYctS+Toi4BSYZFgzF/L8fNv+oHoHOcNTWXyVaeVimN6tUSHTFK0tB8Lc8kRBDiSSv3GzZ1COooaTpx1QtRDA3d5C4x2pvlYlrHuSx0m2FeDZoYlGjxxRmSrwRfkvN/+ZQ73X1smyZCUlYhoSP34qOJpT1wz+saN225ijIA=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFKTCCA5GgAwIBAgIUL1sPhdsSm1fPUxS66LKKCI6zJEgwDQYJKoZIhvcNAQELBQAwgYMxFDASBgNVBAoMC01BU1RFUlMgc3JsMRAwDgYDVQQDDAdNQVNURVJTMR0wGwYDVQRTDBRodHRwczovL3d3dy5ibHVnby5pdDEaMBgGA1UEYQwRVkFUSVQtMDIwNzkwMTA2NjIxCzAJBgNVBAYTAklUMREwDwYDVQQHDAhBdmV6emFubzAeFw0yNjAyMDIyMTU0NTBaFw0yODAyMDIyMTU0NTBaMIGDMRQwEgYDVQQKDAtNQVNURVJTIHNybDEQMA4GA1UEAwwHTUFTVEVSUzEdMBsGA1UEUwwUaHR0cHM6Ly93d3cuYmx1Z28uaXQxGjAYBgNVBGEMEVZBVElULTAyMDc5MDEwNjYyMQswCQYDVQQGEwJJVDERMA8GA1UEBwwIQXZlenphbm8wggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDnc5OXQxg5cXENq88t/cEVSm+lEmNC0gfqWfK2ramLOu0aDRbYWAdLEjt+ZjnC3mTuPg+xM9QhlejLXz8xcEMMWa7Rw93PT3/cXoUtprffNXC0xLgUvjRGD8ak4//qGQgi7PRx7OjCS9Otti/vp28a8cPi/XIhV9sFS54nlli5Ra/6uGoTr9r9xbOf4G4HMIZqvGgq/NuKryr5VyDnJaaSq61u0TvXbI+uhsA/aBP+xq4WG4s4CH9J+T84IDQKNe9ShIuN9O8qfAeg+Bg9BKfYP/hpRqd8+Cd64qmeCOHKEG8kekXOA6g7RnAIoLQ2I81Kfz/pHlGoia9XA9LeWpEP9pjE52OrXibcGWEkFd2Xub9fAmLYTSsosck0btLotctfvWb88mG9Rg2xj0z1umf3FHW8m/5QaXjaBYemHHO6QgMzIdLM8uGkXPdFsSMgMACLVCeOHNAGCY+0Y9yD+6npWENhjlYowgKJ011DCfTReM1rXX8hzjrOa2xWizc+nTUCAwEAAaOBkjCBjzAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBTBgNVHSAETDBKMCAGBCtMEAYwGDAWBggrBgEFBQcCAjAKGghhZ0lEY2VydDAmBgYrTBAEAwEwHDAaBggrBgEFBQcCAjAOGgxjZXJ0X1NQX1ByaXYwHQYDVR0OBBYEFAfNET80nLSfzndRpUbE8uEVJQgwMA0GCSqGSIb3DQEBCwUAA4IBgQCul8htIEIiEoYi82Q83FQgn058PXnlSAIJ1iYJlsukkY3Yzj6EaPiFkJMHD6sGT77H08qMEH7/AgZqb0AwV69qTOc1iwr6X6FtWSR76Be8sk0iDqrCpdrdLNHnECX5HDTUCD/+5QlLGx7u8JyQdMFgHRuVLAZpF1XHlDyI4ENNvIdKJBi3DVU7N0c6P9prnjl/l4tFU3mWnoj2h8lqZCgDzO03drfYiBUJ5cIOlcHATpQ8wqB0kstHRJUOqMluB6kQMBcf156Rc2LykGWuXmqJ1KQFA2Ph9u7WifrDdfer6XfIOeyesHJGsIkv0vQgme1ur8CWw8VYbqYV99/n5qTgpRALfYctS+Toi4BSYZFgzF/L8fNv+oHoHOcNTWXyVaeVimN6tUSHTFK0tB8Lc8kRBDiSSv3GzZ1COooaTpx1QtRDA3d5C4x2pvlYlrHuSx0m2FeDZoYlGjxxRmSrwRfkvN/+ZQ73X1smyZCUlYhoSP34qOJpT1wz+saN225ijIA=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFKTCCA5GgAwIBAgIUL1sPhdsSm1fPUxS66LKKCI6zJEgwDQYJKoZIhvcNAQELBQAwgYMxFDASBgNVBAoMC01BU1RFUlMgc3JsMRAwDgYDVQQDDAdNQVNURVJTMR0wGwYDVQRTDBRodHRwczovL3d3dy5ibHVnby5pdDEaMBgGA1UEYQwRVkFUSVQtMDIwNzkwMTA2NjIxCzAJBgNVBAYTAklUMREwDwYDVQQHDAhBdmV6emFubzAeFw0yNjAyMDIyMTU0NTBaFw0yODAyMDIyMTU0NTBaMIGDMRQwEgYDVQQKDAtNQVNURVJTIHNybDEQMA4GA1UEAwwHTUFTVEVSUzEdMBsGA1UEUwwUaHR0cHM6Ly93d3cuYmx1Z28uaXQxGjAYBgNVBGEMEVZBVElULTAyMDc5MDEwNjYyMQswCQYDVQQGEwJJVDERMA8GA1UEBwwIQXZlenphbm8wggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDnc5OXQxg5cXENq88t/cEVSm+lEmNC0gfqWfK2ramLOu0aDRbYWAdLEjt+ZjnC3mTuPg+xM9QhlejLXz8xcEMMWa7Rw93PT3/cXoUtprffNXC0xLgUvjRGD8ak4//qGQgi7PRx7OjCS9Otti/vp28a8cPi/XIhV9sFS54nlli5Ra/6uGoTr9r9xbOf4G4HMIZqvGgq/NuKryr5VyDnJaaSq61u0TvXbI+uhsA/aBP+xq4WG4s4CH9J+T84IDQKNe9ShIuN9O8qfAeg+Bg9BKfYP/hpRqd8+Cd64qmeCOHKEG8kekXOA6g7RnAIoLQ2I81Kfz/pHlGoia9XA9LeWpEP9pjE52OrXibcGWEkFd2Xub9fAmLYTSsosck0btLotctfvWb88mG9Rg2xj0z1umf3FHW8m/5QaXjaBYemHHO6QgMzIdLM8uGkXPdFsSMgMACLVCeOHNAGCY+0Y9yD+6npWENhjlYowgKJ011DCfTReM1rXX8hzjrOa2xWizc+nTUCAwEAAaOBkjCBjzAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBTBgNVHSAETDBKMCAGBCtMEAYwGDAWBggrBgEFBQcCAjAKGghhZ0lEY2VydDAmBgYrTBAEAwEwHDAaBggrBgEFBQcCAjAOGgxjZXJ0X1NQX1ByaXYwHQYDVR0OBBYEFAfNET80nLSfzndRpUbE8uEVJQgwMA0GCSqGSIb3DQEBCwUAA4IBgQCul8htIEIiEoYi82Q83FQgn058PXnlSAIJ1iYJlsukkY3Yzj6EaPiFkJMHD6sGT77H08qMEH7/AgZqb0AwV69qTOc1iwr6X6FtWSR76Be8sk0iDqrCpdrdLNHnECX5HDTUCD/+5QlLGx7u8JyQdMFgHRuVLAZpF1XHlDyI4ENNvIdKJBi3DVU7N0c6P9prnjl/l4tFU3mWnoj2h8lqZCgDzO03drfYiBUJ5cIOlcHATpQ8wqB0kstHRJUOqMluB6kQMBcf156Rc2LykGWuXmqJ1KQFA2Ph9u7WifrDdfer6XfIOeyesHJGsIkv0vQgme1ur8CWw8VYbqYV99/n5qTgpRALfYctS+Toi4BSYZFgzF/L8fNv+oHoHOcNTWXyVaeVimN6tUSHTFK0tB8Lc8kRBDiSSv3GzZ1COooaTpx1QtRDA3d5C4x2pvlYlrHuSx0m2FeDZoYlGjxxRmSrwRfkvN/+ZQ73X1smyZCUlYhoSP34qOJpT1wz+saN225ijIA=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://localhost:8080/wp-content/plugins/blugo-spid-plugin/www/blugo/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:8080/wp-content/plugins/blugo-spid-plugin/www/blugo/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Blu Go</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">An app to help guys to be independent</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">MASTERS srl</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">MASTERS</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.blugo.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:VATNumber xmlns:spid="https://spid.gov.it/saml-extensions">IT02079010662</spid:VATNumber>
+      <spid:Private xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:Company>MASTERS srl</md:Company>
+    <md:EmailAddress>davidegallotti95@gmail.com</md:EmailAddress>
+    <md:TelephoneNumber>3348400393</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="billing">
+    <md:Extensions>
+      <fpa:CessionarioCommittente xmlns:fpa="https://spid.gov.it/invoicing-extensions">
+        <fpa:DatiAnagrafici>
+          <fpa:IdFiscaleIVA>
+            <fpa:IdPaese>IT</fpa:IdPaese>
+            <fpa:IdCodice>02079010662</fpa:IdCodice>
+          </fpa:IdFiscaleIVA>
+          <fpa:Anagrafica>
+            <fpa:Denominazione>MASTERS srl</fpa:Denominazione>
+          </fpa:Anagrafica>
+        </fpa:DatiAnagrafici>
+        <fpa:Sede>
+          <fpa:Indirizzo>Via dei Fiori</fpa:Indirizzo>
+          <fpa:NumeroCivico>7</fpa:NumeroCivico>
+          <fpa:CAP>67051</fpa:CAP>
+          <fpa:Comune>Avezzano</fpa:Comune>
+          <fpa:Provincia>AQ</fpa:Provincia>
+          <fpa:Nazione>IT</fpa:Nazione>
+        </fpa:Sede>
+      </fpa:CessionarioCommittente>
+    </md:Extensions>
+    <md:Company>MASTERS SRL</md:Company>
+    <md:EmailAddress>davidegallotti95@gmail.com</md:EmailAddress>
+    <md:TelephoneNumber>3348400393</md:TelephoneNumber>
+  </md:ContactPerson>
+</md:EntityDescriptor>
